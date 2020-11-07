@@ -5,8 +5,13 @@ Java Implementation of Producer Consumer using inter thread communication (using
 
 Java Implementation of Producer Consumer using Blocking Queue.
 
-210. Course Schedule II
+Course Schedule II
 
 Course Schedule III
 
 Minimum Height Trees
+
+DeadLockDetector - Detect thread deadlock using ThreadMXBean
+ThreadMXBean threadMXBean = (ThreadMXBean) ManagementFactory.getThreadMXBean();
+long ids[] = threadMXBean.findDeadlockedThreads();
+Stop all the deadlock threads.
