@@ -16,4 +16,5 @@ DeadLockDetector - Detect thread deadlock using ThreadMXBean
 <br>long ids[] = threadMXBean.findDeadlockedThreads();
 <br>Stop all the deadlock threads.
 
-Valid Square
+Valid Square<br>
+BasicCalculator<br>
